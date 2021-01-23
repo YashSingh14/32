@@ -4,7 +4,7 @@ const Bodies = Matter.Bodies;
 const Constraint = Matter.Constraint;
 
 var engine, world;
-var box1, pig1,pig3;
+var box1, pig1,pig2;
 var backgroundImg,platform;
 var bird, slingshot;
 var score = 0;
@@ -60,7 +60,7 @@ function draw(){
 
     box3.display();
     box4.display();
-    pig3.display();
+    pig2.display();
     log3.display();
 
     box5.display();
